@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<script>
+  import Home from "./home.svelte";
+	import Navbar from "./navbar.svelte";
+	import Intermezzo from "./intermezzo.svelte";
+	import Prova from "./home.svelte";
+	import Libro from "./libro.svelte"
+</script>
+
+
+<Home></Home>
+
+<Navbar> </Navbar>
+
+<Intermezzo></Intermezzo>
+<Libro></Libro>
+
+<pre class="h-screen">
+	ciao 
+
+</pre>

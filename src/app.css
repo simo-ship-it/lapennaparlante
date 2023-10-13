@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-4xl;
+      font-family: "Palatino", "Palatino Linotype", "Book Antiqua", serif;
+    }
+    h2 {
+      @apply text-xl;
+      font-family: "Palatino", "Palatino Linotype", "Book Antiqua", serif;
+    }
+    p {
+        @apply text-sm;
+        font-family: "Palatino", "Palatino Linotype", "Book Antiqua", serif;
+      }
+
+    a {
+        font-family: "Palatino", "Palatino Linotype", "Book Antiqua", serif;
+    }
+  }
+
